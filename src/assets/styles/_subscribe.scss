@@ -1,0 +1,33 @@
+.subscribe {
+    min-height: 50vh;
+    &-box { 
+        background-color: #292727;
+        min-height: 40vh;
+        border-radius: 20px;
+        color: white;
+        border: 1px solid rgb(73, 70, 70); 
+
+        .subscribe-email {
+            padding: 8px;
+            background-color: #eee;
+            border-radius: 5px;
+            &-input {
+                min-width: 60%;
+                padding: 10px;
+                border: none;
+                outline: none;
+                background-color: #eee;
+            }
+            &-btn {
+                padding: 10px 15px;
+                border-radius: 5px;
+                outline: none;
+                border: none;
+                background-color: #292727;
+                margin-left: auto;
+                color: white;
+                font-size: 14px;
+            }
+        }
+    }
+}

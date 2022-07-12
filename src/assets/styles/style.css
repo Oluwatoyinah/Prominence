@@ -1,0 +1,54 @@
+footer .copyright {
+  text-align: right;
+}
+footer .copyright p {
+  color: #000;
+  font-size: 13px;
+}
+
+.subscribe {
+  min-height: 50vh;
+}
+.subscribe-box {
+  background-color: #292727;
+  min-height: 40vh;
+  border-radius: 20px;
+  color: white;
+  border: 1px solid rgb(73, 70, 70);
+}
+.subscribe-box .subscribe-email {
+  padding: 8px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+.subscribe-box .subscribe-email-input {
+  min-width: 60%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: #eee;
+}
+.subscribe-box .subscribe-email-btn {
+  padding: 10px 15px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: #292727;
+  margin-left: auto;
+  color: white;
+  font-size: 14px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+ul, li {
+  list-style-type: none;
+}/*# sourceMappingURL=style.css.map */
