@@ -68,4 +68,18 @@ ul, li {
 
 h1, h2, h3 {
   font-family: "Patua One", cursive;
+}
+
+.headerImg1 {
+  position: absolute;
+  box-shadow: 4px 4px #000;
+  transform: rotate(-15deg);
+}
+
+.headerImg2 {
+  position: absolute;
+  box-shadow: 4px 4px #000;
+  right: 20px;
+  transform: rotate(15deg);
+  z-index: 10;
 }/*# sourceMappingURL=style.css.map */

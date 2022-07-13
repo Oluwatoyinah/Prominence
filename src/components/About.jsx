@@ -6,16 +6,16 @@ const About = () => {
     <div className="container-fluid p-0 mb-5" style={{}}>
         <div className="container">
             <div className="row g-5">
-                <div className="col-lg-6 d-flex justify-content-center">
+                <div className="col-lg-6 col-md-8 mx-auto order-1 order-lg-0 d-flex justify-content-center">
                     <img src={NestGageBanner} className="mx-auto bg-danger" style={{width: "90%"}} alt="" />
                 </div>
-                <div className="col-lg-6 d-flex align-items-center">
-                        <div className=''>
-                            <h2 className="fw-bold">About Us</h2>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, modi unde deserunt a sed reiciendis in itaque tempore quos suscipit accusantium asperiores accusamus similique quam ipsam? Illum laudantium eveniet quisquam?</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente alias neque libero rerum quod vitae, rem, cum modi accusamus fugiat nisi? Deserunt, velit!</p>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sequi vero numquam, vel fugiat fuga, dignissimos sunt eaque, maxime dolore fugit aliquam deserunt nostrum earum facilis magni praesentium nemo vitae.</p>
-                        </div>
+                <div className="col-lg-6 order-0 order-lg-1 d-flex align-items-center">
+                    <div>
+                        <h2 className="fw-bold">About Us</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, modi unde deserunt a sed reiciendis in itaque tempore quos suscipit accusantium asperiores accusamus similique quam ipsam? Illum laudantium eveniet quisquam?</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente alias neque libero rerum quod vitae, rem, cum modi accusamus fugiat nisi? Deserunt, velit!</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sequi vero numquam, vel fugiat fuga, dignissimos sunt eaque, maxime dolore fugit aliquam deserunt nostrum earum facilis magni praesentium nemo vitae.</p>
+                    </div>
                 </div>
             </div>
         </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Subscribe = () => {
   return (
-    <section className="py-5 container-fluid subscribe">
+    <section className="py-5 container-fluid subscribe d-none d-md-block">
         <div className="container">
             <div className="container p-md-5 subscribe-box d-flex align-items-center">
                 <div className="row g-md-5 g-3">
