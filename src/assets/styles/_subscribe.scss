@@ -31,3 +31,13 @@
         }
     }
 }
+
+@media(max-width: 576px) {
+    .subscribe {
+        min-height: 20vh;
+        &-box { 
+            min-height: 20vh;
+            border-radius: 15px;
+        }
+    }
+}

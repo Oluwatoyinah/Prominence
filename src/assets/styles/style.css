@@ -39,6 +39,15 @@ footer .copyright p {
   font-size: 14px;
 }
 
+@media (max-width: 576px) {
+  .subscribe {
+    min-height: 20vh;
+  }
+  .subscribe-box {
+    min-height: 20vh;
+    border-radius: 15px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -47,6 +56,7 @@ footer .copyright p {
 
 body {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 ul, li {

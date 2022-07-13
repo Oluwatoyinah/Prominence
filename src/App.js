@@ -1,3 +1,4 @@
+import About from "./components/About";
 import CoreValues from "./components/CoreValues";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -10,6 +11,7 @@ const App = () => {
     <>
       <Nav />
        <Header />
+       <About />
        <CoreValues />
        <Partner />
        <Subscribe />

@@ -1,23 +1,24 @@
 import React from 'react'
+// import NestGageBanner from '../assets/images/banner1.jpg'
 
 const Header = () => {
   return (
-    <header className="container-fluid py-5" style={{minHeight: "100vh"}}>
+    <header className="container-fluid py-5" style={{minHeight: "80vh"}}> 
         <div className="container">
-          <div className="row g-5">
-              <div className="col-lg-6">
-                <div>
-                   <h1 className="fw-bold mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dignissimos eius numquam?</h1>
-                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dicta quos esse fugiat ullam quo explicabo officia quae provident eum.</p>
+            <div className="row g-5">
+                <div className="col-lg-6">
+                    <div className="container">
+                        <div className=''>
+                            <h1 className="fw-bold">Lorem ipsum dolor sit, amet consectetur!</h1>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, modi unde deserunt a sed reiciendis in itaque tempore quos suscipit accusantium asperiores accusamus similique quam ipsam? Illum laudantium eveniet quisquam?</p>
+                        </div>
+                    </div>
                 </div>
-              </div>
 
-              <div className="col-lg-6">
-                <div>
-                  <img src="" alt="Header banner" />
+                <div className="col-lg-6">
+                  <img src="" alt="header banner" />
                 </div>
-              </div>
-          </div>
+            </div> 
         </div>
     </header>
   )

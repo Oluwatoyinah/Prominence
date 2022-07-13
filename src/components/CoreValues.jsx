@@ -2,31 +2,11 @@ import React from 'react'
 
 const CoreValues = () => {
   return (
-    <div className="container-fluid py-5" style={{minHeight: "60vh"}}>
+    <div className="container-fluid py-5 text-center" style={{minHeight: "60vh"}}>
         <div className="container">
-            <h2 className="fw-bold">Our core values</h2>
+            <h2 className="fw-bold mb-5">Our core values</h2>
 
             <div className="row g-5">
-                <div className="col-lg-3 col-md-6">
-                    <div>
-                        <h6 className="fw-bold">Lorem, ipsum.</h6>
-                    </div>
-                </div>
-                <div className="col-lg-3 col-md-6">
-                    <div>
-                        <h6 className="fw-bold">Lorem, ipsum.</h6>
-                    </div>
-                </div>
-                <div className="col-lg-3 col-md-6">
-                    <div>
-                        <h6 className="fw-bold">Lorem, ipsum.</h6>
-                    </div>
-                </div>
-                <div className="col-lg-3 col-md-6">
-                    <div>
-                        <h6 className="fw-bold">Lorem, ipsum.</h6>
-                    </div>
-                </div>
                 <div className="col-lg-3 col-md-6">
                     <div>
                         <h6 className="fw-bold">Lorem, ipsum.</h6>
