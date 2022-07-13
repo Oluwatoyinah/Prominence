@@ -9,21 +9,25 @@ const CoreValues = () => {
             <div className="row g-5">
                 <div className="col-lg-3 col-md-6">
                     <div>
+                        <img src="" alt="value" className='mb-2' />
                         <h6 className="fw-bold">Lorem, ipsum.</h6>
                     </div>
                 </div>
                 <div className="col-lg-3 col-md-6">
                     <div>
+                        <img src="" alt="value" className='mb-2' />
                         <h6 className="fw-bold">Lorem, ipsum.</h6>
                     </div>
                 </div>
                 <div className="col-lg-3 col-md-6">
                     <div>
+                        <img src="" alt="value" className='mb-2' />
                         <h6 className="fw-bold">Lorem, ipsum.</h6>
                     </div>
                 </div>
                 <div className="col-lg-3 col-md-6">
                     <div>
+                        <img src="" alt="value" className='mb-2' />
                         <h6 className="fw-bold">Lorem, ipsum.</h6>
                     </div>
                 </div>
