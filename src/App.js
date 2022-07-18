@@ -19,10 +19,10 @@ const App = () => {
        <CoreValues />
        <Features />
        <Partner />
-       <Trial />
        <Pricing />
-       <Subscribe />
+       <Trial /> 
        <Contact />
+       <Subscribe />
        <Footer />
     </>
   );

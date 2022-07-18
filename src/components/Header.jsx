@@ -5,7 +5,7 @@ import NestGageBlue from '../assets/images/nestgage-blue.jpg'
 
 const Header = () => {
   return (
-    <header className="container-fluid py-5" style={{minHeight: "80vh"}}> 
+    <header className="container-fluid pb-5 header"> 
         <div className="container">
             <div className="row g-5">
                 <div className="col-lg-6 mb-5">
@@ -22,7 +22,7 @@ const Header = () => {
                     </div>
                 </div>
 
-                <div className="col-md-6 mx-auto  my-5" style={{minHeight: "30vh"}}>
+                <div className="col-md-6 mx-auto mt-5 d-none" style={{minHeight: "30vh"}}>
                    <div style={{position: "relative"}}>
                       <img src={NestGageWhite} style={{width: "50%"}} className="headerImg1" alt="header banner" />
                       <img src={NestGageBlue} style={{width: "50%"}} className="headerImg2" alt="header banner" />    

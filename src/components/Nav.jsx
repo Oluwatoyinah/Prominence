@@ -6,7 +6,7 @@ const Nav = () => {
         <div className="container py-3">
             <div className="d-flex justify-content-between align-items-center">
                 <div>
-                    <h1>Logo</h1>
+                    <img src="" alt="logo" />
                 </div>
                 <div>
                     <ul className='nav-links d-flex gap-3'>

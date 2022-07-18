@@ -1,7 +1,11 @@
 .subscribe {
     min-height: 50vh;
     &-box { 
-        background-color: #292727;
+        h2 {
+            color: white;
+        }
+        // background-color: #292727;
+        background-color: #14056d;
         min-height: 40vh;
         border-radius: 20px;
         color: white;
@@ -12,7 +16,7 @@
             background-color: #eee;
             border-radius: 5px;
             &-input {
-                min-width: 60%;
+                min-width: 65%;
                 padding: 10px;
                 border: none;
                 outline: none;
@@ -23,7 +27,7 @@
                 border-radius: 5px;
                 outline: none;
                 border: none;
-                background-color: #292727;
+                background-color: #14056d;
                 margin-left: auto;
                 color: white;
                 font-size: 14px;

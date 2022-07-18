@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Patua+One&display=swap");
+@import url("http://fonts.cdnfonts.com/css/harabara");
+footer {
+  background-color: #eee;
+}
 footer .copyright {
   text-align: right;
 }
@@ -12,11 +16,14 @@ footer .copyright p {
   min-height: 50vh;
 }
 .subscribe-box {
-  background-color: #292727;
+  background-color: #14056d;
   min-height: 40vh;
   border-radius: 20px;
   color: white;
   border: 1px solid rgb(73, 70, 70);
+}
+.subscribe-box h2 {
+  color: white;
 }
 .subscribe-box .subscribe-email {
   padding: 8px;
@@ -24,7 +31,7 @@ footer .copyright p {
   border-radius: 5px;
 }
 .subscribe-box .subscribe-email-input {
-  min-width: 60%;
+  min-width: 65%;
   padding: 10px;
   border: none;
   outline: none;
@@ -35,7 +42,7 @@ footer .copyright p {
   border-radius: 5px;
   outline: none;
   border: none;
-  background-color: #292727;
+  background-color: #14056d;
   margin-left: auto;
   color: white;
   font-size: 14px;
@@ -50,6 +57,42 @@ footer .copyright p {
     border-radius: 15px;
   }
 }
+header {
+  min-height: 100vh;
+  padding-top: 5rem;
+  overflow-x: hidden;
+}
+header h1 {
+  font-size: 4.2rem;
+}
+
+@media (max-width: 768px) {
+  header {
+    min-height: 130vh;
+    padding-top: 3rem;
+  }
+  header h1 {
+    font-size: 3.2rem;
+  }
+}
+@media (max-width: 576px) {
+  header {
+    min-height: 80vh;
+    padding-top: 3rem;
+  }
+  header h1 {
+    font-size: 2.5rem;
+  }
+}
+.trial {
+  min-height: 70vh;
+  background-color: #14056d;
+  color: white;
+}
+.trial h2 {
+  color: white;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -67,7 +110,8 @@ ul, li {
 }
 
 h1, h2, h3 {
-  font-family: "Patua One", cursive;
+  font-family: "Harabara", sans-serif;
+  color: #14056d;
 }
 
 .headerImg1 {

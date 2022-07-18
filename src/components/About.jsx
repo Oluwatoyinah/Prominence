@@ -3,7 +3,7 @@ import NestGageBanner from '../assets/images/banner1.jpg'
 
 const About = () => {
   return (
-    <div className="container-fluid p-0 mb-5" style={{}}>
+    <div className="container-fluid py-5 p-lg-0 mb-5" style={{}}>
         <div className="container">
             <div className="row g-5">
                 <div className="col-lg-6 col-md-8 mx-auto order-1 order-lg-0 d-flex justify-content-center">

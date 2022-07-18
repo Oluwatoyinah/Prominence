@@ -2,9 +2,9 @@ import React from 'react'
 
 const Subscribe = () => {
   return (
-    <section className="py-5 container-fluid subscribe d-none d-md-block">
+    <section className="py-5 container-md  subscribe ">
         <div className="container">
-            <div className="container p-md-5 subscribe-box d-flex align-items-center">
+            <div className="container p-sm-5 p-4 subscribe-box d-flex align-items-center">
                 <div className="row g-md-5 g-3">
                     <div className="col-lg-6 d-flex align-items-center">
                         <div className=''>
@@ -14,7 +14,7 @@ const Subscribe = () => {
                     </div>
 
                     <div className="col-lg-6 d-flex align-items-center"> 
-                            <div className="subscribe-email d-flex align-items-center" style={{width: "100%"}}>
+                            <div className="subscribe-email d-sm-flex align-items-center" style={{width: "100%"}}>
                                 <input className='subscribe-email-input' type="email" name="" placeholder='Your email' id="" />
                                 <button className='subscribe-email-btn'>Subscribe</button>
                             </div> 
