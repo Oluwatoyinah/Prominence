@@ -2,7 +2,7 @@ import React from 'react'
 
 const Partner = () => {
   return (
-    <section className="container-fluid py-5" style={{minHeight: "40vh"}}>
+    <section className="container-fluid py-5 d-none d-sm-block" style={{minHeight: "40vh"}}>
         <div className="text-center">
             <h6 className="fw-bold small-heading" style={{fontSize: "14px", marginBottom: "10px"}}>PARTNERS</h6>
             <h2 className="fw-bold mb-5 sub-title">
