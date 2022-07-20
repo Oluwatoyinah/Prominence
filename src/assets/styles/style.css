@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Patua+One&display=swap");
-@import url("http://fonts.cdnfonts.com/css/harabara");
+@import url("https://fonts.cdnfonts.com/css/harabara");
+@import url("https://fonts.cdnfonts.com/css/invisible-2");
 footer .copyright {
   text-align: right;
 }
@@ -121,6 +122,30 @@ header h1 {
   font-size: 14px;
 }
 
+.features-box {
+  padding: 24px 32px 32px;
+  backdrop-filter: blur(17px) saturate(37%);
+  -webkit-backdrop-filter: blur(17px) saturate(37%);
+  background-color: rgba(23, 18, 66, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.features-box h3 {
+  font-size: 64px;
+  line-height: 1.2;
+  font-weight: bold;
+  color: rgb(129, 147, 178);
+  margin-bottom: 32px;
+}
+.features-box h5 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  letter-spacing: -0.03em;
+  font-weight: bold;
+}
+.features-box p {
+  font-size: 16px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -140,7 +165,7 @@ ul, li {
 }
 
 h1, h2, h3 {
-  font-family: "Harabara", sans-serif;
+  font-family: "Invisible", sans-serif;
   color: #9ce0fd;
 }
 
@@ -165,9 +190,12 @@ h1, h2, h3 {
 .btn-black {
   padding: 15px 25px;
   border-radius: 30px;
-  background-color: black;
-  color: white;
+  background-color: #fff;
+  color: #00000a;
   text-decoration: none;
+  outline: none;
+  border: none;
+  font-weight: bold;
 }
 
 .sub-title {

@@ -11,7 +11,7 @@ const Header = () => {
                             <h1 className="fw-bold">Lorem ipsum dolor sit, amet </h1>
                             <p className='my-4' style={{lineHeight: "32px", fontSize: "18px"}}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, modi unde deserunt a sed reiciendis in itaque tempore quos suscipit accusantium </p>
                             <div>
-                              <button style={{fontSize: "13px"}} className="btn-black">Get Started</button>
+                              <button style={{fontSize: "15px"}} className="btn-black">Get Started</button>
                             </div>
                         </div>
                     </div>

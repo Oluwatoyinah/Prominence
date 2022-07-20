@@ -1,0 +1,25 @@
+.features {
+    &-box {
+        padding: 24px 32px 32px;
+        backdrop-filter: blur(17px) saturate(37%);
+        -webkit-backdrop-filter: blur(17px) saturate(37%);
+        background-color: rgba(23, 18, 66, 0.72);
+        border: 1px solid rgba(255, 255, 255, 0.125);
+        h3 {
+            font-size: 64px;
+            line-height: 1.2;
+            font-weight: bold;
+            color:  rgb(129, 147, 178);
+            margin-bottom: 32px;
+        }
+        h5 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            letter-spacing: -0.03em;
+            font-weight: bold;
+        }
+        p {
+            font-size: 16px;
+        }
+    }
+}
