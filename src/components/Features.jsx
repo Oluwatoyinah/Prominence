@@ -2,7 +2,7 @@ import React from 'react'
 
 const Features = () => {
   return (
-    <section className='container-fluid py-5 features' style={{minHeight: "50vh"}}>
+    <section className='container-fluid py-5 features' style={{minHeight: "100vh"}}>
       <div className="container">
         <div className="text-center mb-5">
             <h6 className="fw-bold small-heading" style={{fontSize: "14px", marginBottom: "10px"}}>FEATURES</h6>

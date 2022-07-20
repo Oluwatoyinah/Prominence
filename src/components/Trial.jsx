@@ -8,7 +8,7 @@ const Trial = () => {
           <div className="container p-sm-5 p-4">
             <div className="row g-5">
               <div className="col-lg-7 col-md-10 mx-auto text-lg-start text-center">
-                 <h6 style={{fontSize: "13px", lineHeight: "20px"}} className="fw-bold">LET'S TRY</h6>
+                 <h6 style={{fontSize: "13px", lineHeight: "20px"}} className="fw-bold">FREE TRIAL</h6>
                  <div>
                     <h2 className="fw-bold mb-0 sub-title">Start your 1-month free trial</h2>
                     <p style={{lineHeight: "24px"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
