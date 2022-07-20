@@ -97,15 +97,14 @@ header h1 {
 }
 .trial-email {
   padding: 8px;
-  background-color: #fff;
+  background-color: rgb(199, 207, 219);
   border-radius: 5px;
 }
 .trial-email-input {
-  min-width: 65%;
   padding: 10px;
   border: none;
   outline: none;
-  background-color: #fff;
+  background-color: rgb(199, 207, 219);
   font-size: 13px;
 }
 .trial-email-btn {
@@ -145,6 +144,7 @@ header h1 {
 }
 .features-box:hover {
   margin-top: -20px;
+  box-shadow: -5px 25px 30px 40px rgba(107, 101, 167, 0.07);
 }
 
 * {

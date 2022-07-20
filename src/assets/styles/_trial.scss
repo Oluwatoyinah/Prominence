@@ -16,14 +16,14 @@
     }
     &-email {
         padding: 8px;
-        background-color: #fff;
+        background-color:  rgb(199, 207, 219);
         border-radius: 5px;
         &-input {
-            min-width: 65%;
+            // min-width: 65%;
             padding: 10px;
             border: none;
             outline: none;
-            background-color: #fff;
+            background-color:  rgb(199, 207, 219);  
             font-size: 13px;
         }
         &-btn {
