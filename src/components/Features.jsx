@@ -9,7 +9,7 @@ const Features = () => {
             <h2 className="fw-bold sub-title">What we offer</h2>
         </div>
 
-        <div className="row">
+        <div className="row g-5">
           <div className="col-lg-4">
             <div className="features-box">
               <h3>01</h3>
