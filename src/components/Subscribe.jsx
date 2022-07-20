@@ -8,7 +8,7 @@ const Subscribe = () => {
                 <div className="row g-md-5 g-3">
                     <div className="col-lg-6 d-flex align-items-center">
                         <div className=''>
-                            <h2 className="fw-bold">Ready to get started with us</h2>
+                            <h2 className="fw-bold sub-title">Ready to get started with us</h2>
                             <h6 className="mt-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus animi tenetur harum, laboriosam cum corporis?</h6>
                         </div>
                     </div>

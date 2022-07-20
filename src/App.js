@@ -7,7 +7,7 @@ import Header from "./components/Header";
 import Nav from "./components/Nav";
 import Partner from "./components/Partner";
 import Pricing from "./components/Pricing";
-import Subscribe from "./components/Subscribe";
+// import Subscribe from "./components/Subscribe";
 import Trial from "./components/Trial";
 
 const App = () => {
@@ -22,7 +22,7 @@ const App = () => {
        <Pricing />
        <Trial /> 
        <Contact />
-       <Subscribe />
+       {/* <Subscribe /> */}
        <Footer />
     </>
   );

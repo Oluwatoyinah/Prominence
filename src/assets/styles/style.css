@@ -1,14 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Patua+One&display=swap");
 @import url("http://fonts.cdnfonts.com/css/harabara");
-footer {
-  background-color: #eee;
-}
 footer .copyright {
   text-align: right;
 }
 footer .copyright p {
-  color: #000;
   font-size: 13px;
 }
 
@@ -16,7 +12,7 @@ footer .copyright p {
   min-height: 50vh;
 }
 .subscribe-box {
-  background-color: #14056d;
+  background-color: #000;
   min-height: 40vh;
   border-radius: 20px;
   color: white;
@@ -27,7 +23,7 @@ footer .copyright p {
 }
 .subscribe-box .subscribe-email {
   padding: 8px;
-  background-color: #eee;
+  background-color: #fff;
   border-radius: 5px;
 }
 .subscribe-box .subscribe-email-input {
@@ -35,14 +31,14 @@ footer .copyright p {
   padding: 10px;
   border: none;
   outline: none;
-  background-color: #eee;
+  background-color: #fff;
 }
 .subscribe-box .subscribe-email-btn {
   padding: 10px 15px;
   border-radius: 5px;
   outline: none;
   border: none;
-  background-color: #14056d;
+  background-color: #000;
   margin-left: auto;
   color: white;
   font-size: 14px;
@@ -64,15 +60,18 @@ header {
 }
 header h1 {
   font-size: 4.2rem;
+  background: -webkit-linear-gradient(45deg, #9ce0fd, #fd9cc5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 576.01px) and (max-width: 768px) {
   header {
     min-height: 130vh;
     padding-top: 3rem;
   }
   header h1 {
-    font-size: 3.2rem;
+    font-size: 4.2rem;
   }
 }
 @media (max-width: 576px) {
@@ -81,16 +80,45 @@ header h1 {
     padding-top: 3rem;
   }
   header h1 {
-    font-size: 2.5rem;
+    font-size: 4.2rem;
   }
 }
 .trial {
   min-height: 70vh;
-  background-color: #14056d;
-  color: white;
+  color: #fff;
 }
 .trial h2 {
   color: white;
+}
+.trial-box {
+  backdrop-filter: blur(17px) saturate(37%);
+  -webkit-backdrop-filter: blur(17px) saturate(37%);
+  background-color: rgba(23, 18, 66, 0.72);
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.trial-email {
+  padding: 8px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.trial-email-input {
+  min-width: 65%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  font-size: 13px;
+}
+.trial-email-btn {
+  padding: 10px 15px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: #05051f;
+  margin-left: auto;
+  color: white;
+  font-size: 14px;
 }
 
 * {
@@ -103,6 +131,8 @@ body {
   scroll-behavior: smooth;
   overflow-x: hidden;
   font-family: "Raleway", sans-serif;
+  background-color: #0b071f;
+  color: white;
 }
 
 ul, li {
@@ -111,7 +141,11 @@ ul, li {
 
 h1, h2, h3 {
   font-family: "Harabara", sans-serif;
-  color: #14056d;
+  color: #9ce0fd;
+}
+
+.small-heading {
+  color: #be9cfd;
 }
 
 .headerImg1 {
@@ -126,4 +160,22 @@ h1, h2, h3 {
   right: 20px;
   transform: rotate(15deg);
   z-index: 10;
+}
+
+.btn-black {
+  padding: 15px 25px;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+.sub-title {
+  font-size: 40px;
+  letter-spacing: -0.03rem;
+  line-height: 48px;
+}
+
+p {
+  line-height: 32px;
 }/*# sourceMappingURL=style.css.map */

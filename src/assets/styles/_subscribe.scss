@@ -5,7 +5,8 @@
             color: white;
         }
         // background-color: #292727;
-        background-color: #14056d;
+        // background-color: #14056d;
+        background-color: #000;
         min-height: 40vh;
         border-radius: 20px;
         color: white;
@@ -13,21 +14,22 @@
 
         .subscribe-email {
             padding: 8px;
-            background-color: #eee;
+            background-color: #fff;
             border-radius: 5px;
             &-input {
                 min-width: 65%;
                 padding: 10px;
                 border: none;
                 outline: none;
-                background-color: #eee;
+                background-color: #fff;
             }
             &-btn {
                 padding: 10px 15px;
                 border-radius: 5px;
                 outline: none;
                 border: none;
-                background-color: #14056d;
+                // background-color: #14056d;
+                background-color: #000;
                 margin-left: auto;
                 color: white;
                 font-size: 14px;

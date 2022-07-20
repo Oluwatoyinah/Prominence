@@ -11,9 +11,9 @@ const About = () => {
                 </div>
                 <div className="col-lg-6 order-0 order-lg-1 d-flex align-items-center">
                     <div>
-                        <h2 className="fw-bold">About Us</h2>
+                        <h6 className="fw-bold small-heading" style={{fontSize: "14px", marginBottom: "10px"}}>ABOUT US</h6>
+                        <h2 className="fw-bold sub-title">Who we are</h2>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, modi unde deserunt a sed reiciendis in itaque tempore quos suscipit accusantium asperiores accusamus similique quam ipsam? Illum laudantium eveniet quisquam?</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente alias neque libero rerum quod vitae, rem, cum modi accusamus fugiat nisi? Deserunt, velit!</p>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sequi vero numquam, vel fugiat fuga, dignissimos sunt eaque, maxime dolore fugit aliquam deserunt nostrum earum facilis magni praesentium nemo vitae.</p>
                     </div>
                 </div>
