@@ -88,9 +88,6 @@ header h1 {
   min-height: 70vh;
   color: #fff;
 }
-.trial h2 {
-  color: white;
-}
 .trial-box {
   backdrop-filter: blur(17px) saturate(37%);
   -webkit-backdrop-filter: blur(17px) saturate(37%);
