@@ -10,7 +10,7 @@ const Features = () => {
         </div>
 
         <div className="row g-5">
-          <div className="col-lg-4">
+          <div className="col-lg-4 col-md-6 mx-auto col-sm-8">
             <div className="features-box">
               <h3>01</h3>
 
@@ -22,7 +22,7 @@ const Features = () => {
               <p>Learn More </p>
             </div>
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-4 col-md-6 mx-auto col-sm-8">
             <div className="features-box">
               <h3>02</h3>
 
@@ -34,7 +34,7 @@ const Features = () => {
               <p>Learn More </p>
             </div>
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-4 col-md-6 mx-auto col-sm-8">
             <div className="features-box">
               <h3>03</h3>
 

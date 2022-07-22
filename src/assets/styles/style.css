@@ -81,7 +81,7 @@ header h1 {
     padding-top: 3rem;
   }
   header h1 {
-    font-size: 4.2rem;
+    font-size: 3.5rem;
   }
 }
 .trial {
@@ -118,6 +118,11 @@ header h1 {
   font-size: 14px;
 }
 
+@media (max-width: 576px) {
+  .trial {
+    min-height: 50vh;
+  }
+}
 .features-box {
   padding: 24px 32px 32px;
   backdrop-filter: blur(17px) saturate(37%);
@@ -143,6 +148,33 @@ header h1 {
   font-size: 16px;
 }
 .features-box:hover {
+  margin-top: -20px;
+  box-shadow: -5px 25px 30px 40px rgba(107, 101, 167, 0.07);
+}
+
+.pricing {
+  min-height: 100vh;
+}
+.pricing-box {
+  padding: 24px 32px 32px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  transition: all 0.3s ease-in;
+}
+.pricing-box h3 {
+  font-size: 44px;
+  line-height: 1.2;
+  font-weight: bold;
+  color: rgb(129, 147, 178);
+}
+.pricing-box h5 {
+  font-size: 24px;
+  color: rgb(129, 147, 178);
+  margin-bottom: 10px;
+  letter-spacing: -0.03em;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+.pricing-box:hover {
   margin-top: -20px;
   box-shadow: -5px 25px 30px 40px rgba(107, 101, 167, 0.07);
 }

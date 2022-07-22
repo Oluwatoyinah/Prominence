@@ -14,11 +14,13 @@ const Trial = () => {
                     {/* <p style={{lineHeight: "24px", color: "rgb(129, 147, 178)"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> */}
                  </div>
 
-                 <div className='mb-2'>
-                    <div className="trial-email d-flex align-items-center" style={{width: "100%"}}>
-                        <input className='trial-email-input flex-grow-1' type="email" name="" placeholder='Your email' id="" />
-                        <button className='trial-email-btn inline-flex me-2'>Submit</button>
-                    </div> 
+                 <div className="col-lg-10">
+                    <div className='mb-2'>
+                        <div className="trial-email d-flex align-items-center" style={{width: "100%"}}>
+                            <input className='trial-email-input flex-grow-1' type="email" name="" placeholder='Your email' id="" />
+                            <button className='trial-email-btn inline-flex me-2'>Submit</button>
+                        </div> 
+                    </div>
                  </div>
 
                  <div>

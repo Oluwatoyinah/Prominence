@@ -9,7 +9,7 @@ const Footer = () => {
             <div className='row'>
                 <div className="copyright">
                     <p className="mb-0">Privacy Policy</p>
-                    <p className="mb-0">&copy; 2022 AFRIMETRIC All Rights Reserved</p>
+                    <p className="mb-0">&copy; 2022 NESTGAGE All Rights Reserved</p>
                 </div>
             </div>
         </div>
