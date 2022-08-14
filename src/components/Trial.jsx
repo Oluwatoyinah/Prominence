@@ -18,7 +18,7 @@ const Trial = () => {
                     <div className='mb-2'>
                         <div className="trial-email d-flex align-items-center" style={{width: "100%"}}>
                             <input className='trial-email-input flex-grow-1' type="email" name="" placeholder='Your email' id="" />
-                            <button className='trial-email-btn inline-flex me-2'>Submit</button>
+                            <button className='trial-email-btn inline-flex'>Submit</button>
                         </div> 
                     </div>
                  </div>

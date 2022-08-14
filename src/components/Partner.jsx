@@ -10,16 +10,22 @@ const Partner = () => {
             </h2>
 
             <div className="row g-5">
-              <div className="col-lg-3 col-md-6">
+              <div className="col-lg-2 col-sm-6 col-md-4">
                 <img src="" alt="Partner" />
               </div>
-              <div className="col-lg-3 col-md-6">
+              <div className="col-lg-2 col-sm-6 col-md-4">
                 <img src="" alt="Partner" />
               </div>
-              <div className="col-lg-3 col-md-6">
+              <div className="col-lg-2 col-sm-6 col-md-4">
                 <img src="" alt="Partner" />
               </div>
-              <div className="col-lg-3 col-md-6">
+              <div className="col-lg-2 col-sm-6 col-md-4">
+                <img src="" alt="Partner" />
+              </div>
+              <div className="col-lg-2 col-sm-6 col-md-4">
+                <img src="" alt="Partner" />
+              </div>
+              <div className="col-lg-2 col-sm-6 col-md-4">
                 <img src="" alt="Partner" />
               </div>
             </div>

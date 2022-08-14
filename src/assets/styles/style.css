@@ -96,7 +96,7 @@ header h1 {
   border: 1px solid rgba(255, 255, 255, 0.125);
 }
 .trial-email {
-  padding: 8px;
+  padding: 3px;
   background-color: rgb(199, 207, 219);
   border-radius: 5px;
 }
@@ -173,10 +173,6 @@ header h1 {
   letter-spacing: -0.03em;
   font-weight: bold;
   margin-bottom: 32px;
-}
-.pricing-box:hover {
-  margin-top: -20px;
-  box-shadow: -5px 25px 30px 40px rgba(107, 101, 167, 0.07);
 }
 
 * {

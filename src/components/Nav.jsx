@@ -9,9 +9,9 @@ const Nav = () => {
                     <img src="" alt="logo" />
                 </div>
                 <div>
-                    <ul className='nav-links d-flex gap-3'>
-                        <li>Home</li>
-                        <li>About</li>
+                    <ul className='nav-links d-flex gap-4'>
+                        <li className='text-decoration-underline'>Home</li>
+                        <li className='text-decoration-underline'>About</li>
                     </ul>
                 </div>
             </div>

@@ -11,21 +11,21 @@ const CoreValues = () => {
 
             <div className="col-md-11 mx-auto">
                 <div className="row g-5">
-                    <div className="col-lg-4 col-md-6">
+                    <div className="col-lg-4 col-md-6 mx-auto">
                         <div>
                             <img src="" alt="value" className='mb-2' />
                             <h6 className="fw-bold">Lorem, ipsum.</h6>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sit tenetur amet iure! Asperiores, maiores!</p>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6">
+                    <div className="col-lg-4 col-md-6 mx-auto">
                         <div>
                             <img src="" alt="value" className='mb-2' />
                             <h6 className="fw-bold">Lorem, ipsum.</h6>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sit tenetur amet iure! Asperiores, maiores!</p>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6">
+                    <div className="col-lg-4 col-md-6 mx-auto">
                         <div>
                             <img src="" alt="value" className='mb-2' />
                             <h6 className="fw-bold">Lorem, ipsum.</h6>
